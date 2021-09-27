@@ -38,7 +38,7 @@ function getLocation(object) {
 			checkWeather();
 		}
 	};
-	request.open('GET', 'http://api.openweathermap.org/geo/1.0/reverse?lat=' + latitude + '&lon=' + longitude + '&limit=1&appid=' + apiKey);
+	request.open('GET', 'https://api.openweathermap.org/geo/1.0/reverse?lat=' + latitude + '&lon=' + longitude + '&limit=1&appid=' + apiKey);
 	request.send();
 }
 
