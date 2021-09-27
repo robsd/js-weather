@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="container my-5">
+			<h1 class="mb-5">Weather App</h1>
+			<div class="card mb-5">
+				<div class="card-body">
+					<div class="input-group">
+						<input class="form-control" id="location" placeholder="Enter Location">
+						<button class="btn btn-primary" onclick="checkWeather()"><i class="fas fa-map-marker-alt"></i> Check Weather</button>
+					</div>
+				</div>
+			</div>
+			<div class="d-none" id="main">
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<div class="card-body">
+							<h1 id="time"></h1>
+							<p class="card-text" id="date"></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<div class="card-body">
+							<h1><span id="temperature"></span>&deg;<span id="temperature-unit">C</span></h1>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="temperature-unit-choice" value="c" onclick="changeTemperatureUnit('C')" checked>
+								<label>&deg;C</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="temperature-unit-choice" value="f" onclick="changeTemperatureUnit('F')">
+								<label>&deg;F</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card">
+						<div class="card-body">
+							<h1><i class="fas" id="weather-icon"></i></h1>
+							<p class="card-text" id="weather-text"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="d-none" id="error"></div>
+			<div class="mt-5">
+				<small>Developed by <a href="https://robertd.co.uk">Robert Dixon</a>.</small>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
