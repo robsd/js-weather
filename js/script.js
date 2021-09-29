@@ -1,4 +1,4 @@
-apiKey = "e887dacdf0abc809861fbbfcec05c772"; // OpenWeatherMap API Key
+apiKey = 'e887dacdf0abc809861fbbfcec05c772'; // OpenWeatherMap API Key
 
 main = document.getElementById('main');
 error = document.getElementById('error');
