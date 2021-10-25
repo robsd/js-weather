@@ -1,4 +1,4 @@
-# js-weather-app 🌦
+# js-weather 🌦
 
 An application that implements the OpenWeatherMap API to display the current temperature (centigrade or fahrenheit) and weather from the user's current location or a location they specify.
 
@@ -9,4 +9,4 @@ An application that implements the OpenWeatherMap API to display the current tem
 
 ## Demo
 
-https://robsd.github.io/js-weather-app
+https://robsd.github.io/js-weather
