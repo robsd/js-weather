@@ -10,3 +10,9 @@ An application that implements the OpenWeatherMap API to display the current tem
 ## Demo
 
 https://robsd.github.io/js-weather
+
+## Support my work
+
+If you like this repo or used any of the code, please star ⭐ it and consider supporting me below...
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F34TIDQ)
