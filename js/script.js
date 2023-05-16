@@ -89,7 +89,7 @@ function checkWeather() {
 			}
 			else {
 				main.classList.value = 'd-none';
-				error.classList.value = 'alert alert-danger';
+				error.classList.value = 'alert alert-danger mb-5';
 				error.innerHTML = 'Something went wrong. It\'s likely the location you entered couldn\'t be found!';
 			}
 		}
